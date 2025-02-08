@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s9ine Productions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>s9ine Productions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to s9ine Productions</h2>
+            <p>Your one-stop destination for professional videography services.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At s9ine Productions, we specialize in creating stunning visual content for all your needs.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Event Videography</li>
+                <li>Corporate Videos</li>
+                <li>Music Videos</li>
+                <li>Wedding Videography</li>
+            </ul>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out some of our previous work below.</p>
+            <!-- Add portfolio content here -->
+        </section>
+        <section id="booking">
+            <h2>Booking</h2>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="service">Service:</label>
+                <select id="service" name="service" required>
+                    <option value="event">Event Videography</option>
+                    <option value="corporate">Corporate Videos</option>
+                    <option value="music">Music Videos</option>
+                    <option value="wedding">Wedding Videography</option>
+                </select>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="payment">
+            <h2>Payment</h2>
+            <form id="payment-form">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                <label for="cashapp-id">CashApp ID:</label>
+                <input type="text" id="cashapp-id" name="cashapp-id" value="$S9ineproductions" required readonly>
+                <button type="submit">Pay Now</button>
+            </form>
+            <p>Send your payment to our CashApp ID: $S9ineproductions</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch with us for more information.</p>
+            <ul>
+                <li>Email: contact@s9ineproductions.com</li>
+                <li>Phone: (123) 456-7890</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 s9ine Productions. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
